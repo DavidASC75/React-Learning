@@ -1,0 +1,19 @@
+.contMain{
+    display: flex;
+    flex-direction: column;
+    height: 975px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.contH2{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    text-align: center;
+}
+
+.h2Img img{
+   position: top;
+    transform:scale(0.25) ;
+}

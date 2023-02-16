@@ -1,0 +1,118 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    background-image: url("../Img/Shootbeyblade_LowOpacity_1.gif");
+    background-position: 50% 50%;
+    background-size: 1920px 1080px;
+  }
+  .headerNavbar{
+        flex: 0.2;
+  }
+.navbarContent{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 40px;
+}
+.navbarContentLogo, .navbarContentCart{
+  width: 128px;
+  height: 128px;
+}
+.navbarContentLogo img{
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+}
+.navbarContentNavigation{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbarContentNavigation ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.navbarContentNavigation a{
+  text-decoration: none;
+
+  color: white;
+}
+.navbarContentCart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.5);
+}
+
+
+  .headerRow{
+    display: flex;
+    flex-direction: row;
+    flex: 0.8;
+  }
+  .headerRowLeft {  
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerRowLeftContent{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 25%;
+
+  }
+.headerRowLeftH1 h1{
+  flex: 1;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+.headerRowLeftDescription{
+  flex: 1;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.headerRowLeftButton{
+  flex: 1;
+  align-items: center;
+
+}
+.headerRowLeftButton button{
+  color: white;
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #56d4fa;
+}
+
+  .headerRowRight{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .headerRowRightContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .headerRowRightContentImage img{
+    width: 256px;
+    height: 256px;
+    transform: scale(2);
+  }
+  

@@ -1,0 +1,157 @@
+<div className="container">
+
+    </div>
+<div className="container-2">
+
+    </div>
+<div className="container-3">
+
+    </div>  
+<div className="container-4">
+
+    </div>
+  <div className="container-5">
+
+    </div>
+  <div className="container-6">
+
+    </div>
+  <div className="footer">
+
+    </div>
+    
+const [counter, setCounter] = useState(0);
+
+  const result = (event) => {
+    console.log(event.currentTarget);
+  };
+
+
+       const a = 3;
+        const b = 10;
+        const result = b/a;
+        <h1>
+        { title }
+    </h1> 
+
+    console.log(a)
+   /* const a = 3;
+    const b = 5;
+    const result = a * b;*/
+    //return setCounter(25);
+ 
+
+ const {color}=this.props.color;
+
+
+   this.state = { color: this.props.color, number: 0, }
+
+
+
+
+  <button className='button' onClick={handleClrSwapDelay}>
+        Color swap
+      </button>
+
+        /*const handleClrSwapDelay = () => {
+    setTimeout(() => {
+      setValue((prevValue) => prevValue + 1);
+      if (colors[0] === colors[0]) {
+        setColors([0]);
+      } else {
+        setColor([1]);
+      }
+    }, 2000);
+  };*/
+
+
+
+
+   <div className="row-description"></div>
+          <div className="row-img"></div>
+
+
+
+
+          ,"Product","About us","Contact","Account"
+
+
+          {tags.map(tag => <li onClick={handleClick} key={tag.id} name={tag.name} ahref={tag.link} >{tag}</li>)}
+
+
+          onClick={handleClick}
+
+
+return (
+    <React.Fragment>
+     <div className={Styles.testDiv}>
+              <div className={Styles.containerTest}>
+
+              </div>
+             </div>
+     
+    </React.Fragment>
+
+
+
+
+
+
+<div className={Styles.headerRowLeft}>
+            <div className={Styles.headerRowLeftContent}>
+              <div className={Styles.headerRowLeftH1}>
+                <h1>BEYBLADE</h1>
+              </div>
+              <div className={Styles.headerRowLeftDescription}>
+                <p>Come and get your super duper beyblade</p>
+              </div>
+              <div className={Styles.headerRowLeftButton}>
+                <button> Explore now &#8594;</button>
+              </div>
+            </div>
+          </div>
+
+
+
+     <div className={Styles.headerRowRight}>
+            <div className={Styles.headerRowRightContent}>
+              <div className={Styles.headerRowRightContentImage}>
+                <img src={ArenaImage} alt='' />
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          .contH2{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.contMain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 975px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+
+.containerContent{
+    display: flex;
+
+    flex-direction: column;
+
+}

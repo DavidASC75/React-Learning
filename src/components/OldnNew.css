@@ -1,0 +1,12 @@
+.button{
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    background: radial-gradient(#fff, #91e5ff);
+    font-weight: bold;
+    
+}
+.title{
+    margin-left: 50px;
+}
+
